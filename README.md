@@ -1,2 +1,2 @@
-# Fun with Triangles
+# Fun with Triangles :
  A fun quiz about Triangles
