@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun With Triangles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <nav class="navigation">
+        <div class="brand-name">Fun with Triangles</div>
+        <ul class="non-bullet-items nav-pills">
+            <li class="list-inline-item">
+                <a class="links" href="index.html">isTriangle</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="links" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="links" href="area.html">Area</a>
+            </li>
+            <li class="list-inline-item">
+                <a  class="links active-class" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2>Calculate the Hypotenuse of a Triangle</h2>
+        <label for="a">Enter base value(a) = </label>
+        <input id="side-input" class="base-value-input" type="number">
+
+        <label for="b">Enter height value(b) = </label>
+        <input id="side-input" class="height-value-input" type="number">
+      <button class="btn-check" id="cal-hypo-btn">Calculate hypotenuse</button>
+      <h2>Hypotenuse formula</h2>
+      <h3>C = √(base² + height²)</h3>
+      <div id="output"></div>
+    </main>
+
+<footer class="footer">
+<div class="heading">© | 2020 | Santoshini</div>
+  <ul class="list">
+      <li class="list-inline-item">
+          <a class="links" href="https://github.com/santoshinij7" target="_blank">
+              <ion-icon name="logo-github" class="ionicons"></ion-icon>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a class="links" href="https://www.linkedin.com/in/santoshini-jena-786b4b1a6/" target="_blank">
+              <ion-icon name="logo-linkedin" class="ionicons"></ion-icon>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a class="links" href="https://twitter.com/SantoshiniLucky" target="_blank">
+              <ion-icon name="logo-twitter" class="ionicons"></ion-icon>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a class="links" href="https://www.instagram.com/santoshini_jena" target="_blank">
+              <ion-icon name="logo-instagram" class="ionicons"></ion-icon>
+          </a>
+      </li>
+  </ul>
+</footer>
+<script src="hypo.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
